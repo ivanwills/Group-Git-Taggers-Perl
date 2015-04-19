@@ -60,11 +60,11 @@ Makefile.PL - Traditional Ext::Utils
 
 =item *
 
-Build.PL - Module::Build
+Build.PL - L<Module::Build>
 
 =item *
 
-dist.ini - Distzilla
+dist.ini - L<Dist::Zilla>
 
 =back
 
