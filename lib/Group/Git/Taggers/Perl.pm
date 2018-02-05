@@ -7,8 +7,6 @@ package Group::Git::Taggers::Perl;
 # $Revision$, $Source$, $Date$
 
 use Moo;
-use strict;
-use warnings;
 use namespace::autoclean;
 use version;
 use Carp;
@@ -24,7 +22,6 @@ sub match {
     return -f 'Makefile.PL' || -f 'Build.PL' || -f 'dist.ini';
 }
 
-__PACKAGE__->meta->make_immutable;
 
 1;
 
@@ -49,7 +46,7 @@ This documentation refers to Group::Git::Taggers::Perl version 0.0.3
 
 =head1 DESCRIPTION
 
-Looks at a repository and determines if it is a Perl repository based weather
+Looks at a repository and determines if it is a Perl repository based whether
 it contains one of the following files:
 
 =over 4
