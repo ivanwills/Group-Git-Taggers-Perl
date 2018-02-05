@@ -7,8 +7,6 @@ package Group::Git::Taggers::Perl;
 # $Revision$, $Source$, $Date$
 
 use Moo;
-use strict;
-use warnings;
 use namespace::autoclean;
 use version;
 use Carp;
