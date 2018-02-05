@@ -46,7 +46,7 @@ This documentation refers to Group::Git::Taggers::Perl version 0.0.3
 
 =head1 DESCRIPTION
 
-Looks at a repository and determines if it is a Perl repository based weather
+Looks at a repository and determines if it is a Perl repository based whether
 it contains one of the following files:
 
 =over 4
