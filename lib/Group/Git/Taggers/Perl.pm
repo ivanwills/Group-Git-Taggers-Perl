@@ -22,7 +22,6 @@ sub match {
     return -f 'Makefile.PL' || -f 'Build.PL' || -f 'dist.ini';
 }
 
-__PACKAGE__->meta->make_immutable;
 
 1;
 
