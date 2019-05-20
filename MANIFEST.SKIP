@@ -73,3 +73,6 @@ errors.err
 .vtide.yml
 ^MYMETA\.json$
 .cpan.tag
+.vtide/start.log
+MANIFEST.SKIP
+MYMETA.json.lock
